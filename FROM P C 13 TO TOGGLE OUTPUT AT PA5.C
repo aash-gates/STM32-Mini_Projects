@@ -10,3 +10,4 @@ RCC->AHB1ENR |=(1U<<2);
  /*4. Set PC13 to input mode by writing 0 to bit26 and
  bit27 of MODER*/
  GPIOC->MODER |=(0U<<26);
+ GPIOC->MODER |=(0U<<27);

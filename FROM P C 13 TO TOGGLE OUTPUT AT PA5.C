@@ -11,3 +11,4 @@ RCC->AHB1ENR |=(1U<<2);
  bit27 of MODER*/
  GPIOC->MODER |=(0U<<26);
  GPIOC->MODER |=(0U<<27);
+ while (1) {

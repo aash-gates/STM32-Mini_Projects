@@ -4,3 +4,4 @@ int main(void) {
 RCC->AHB1ENR |=(1U<<0);
 /*2. Enable GPIOC clock by writing 1 to bit2 of AHB1ENR*/
 RCC->AHB1ENR |=(1U<<2);
+ /*3. Set PA5 to output mode by writing 1 to bit10 of

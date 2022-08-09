@@ -18,3 +18,4 @@ RCC->AHB1ENR |=(1U<<2);
  GPIOA->ODR &=~(1U<<5);
  }
  else{
+ /*7. Turn on PA5 by writing 1 to bit5 of ODR */

@@ -16,3 +16,4 @@ RCC->AHB1ENR |=(1U<<2);
  if(GPIOA->IDR & (1U<<13)) {
  /*6. Turn off PA5 by writing 0 to bit5 of ODR*/
  GPIOA->ODR &=~(1U<<5);
+ }

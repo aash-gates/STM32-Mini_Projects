@@ -13,3 +13,4 @@ RCC->AHB1ENR |=(1U<<2);
  GPIOC->MODER |=(0U<<27);
  while (1) {
  /*5. Check if input is high by checking if bit13 is 1*/
+ if(GPIOA->IDR & (1U<<13)) {

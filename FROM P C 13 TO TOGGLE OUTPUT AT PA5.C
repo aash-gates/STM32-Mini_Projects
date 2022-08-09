@@ -14,3 +14,4 @@ RCC->AHB1ENR |=(1U<<2);
  while (1) {
  /*5. Check if input is high by checking if bit13 is 1*/
  if(GPIOA->IDR & (1U<<13)) {
+ /*6. Turn off PA5 by writing 0 to bit5 of ODR*/

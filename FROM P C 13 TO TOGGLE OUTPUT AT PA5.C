@@ -6,3 +6,4 @@ RCC->AHB1ENR |=(1U<<0);
 RCC->AHB1ENR |=(1U<<2);
  /*3. Set PA5 to output mode by writing 1 to bit10 of
  MODER*/
+ GPIOA->MODER |=(1U<<10);
